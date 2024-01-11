@@ -1,0 +1,43 @@
+
+
+
+body {
+    background: #edeaff;
+}
+
+.watch-container {
+    width: 90%;
+    max-width: 600px;
+    background: url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    font-family: 'Courier Prime', monospace;
+    border-radius: 15px;
+}
+
+.watch-container h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.btn img {
+    width: 58px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn img:hover {
+    width: 65px;
+}
+
+.btn img:nth-child(2) {
+    width: 90px;
+}
+
+.btn img:nth-child(2):hover {
+    width: 100px;
+}
